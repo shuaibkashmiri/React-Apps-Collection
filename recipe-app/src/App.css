@@ -1,0 +1,101 @@
+/* General Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* App Container */
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Styling */
+h1 {
+  color: #ff6347;
+  font-size: 3rem;
+  margin: 20px 0;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+/* Search Bar Styling */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe List Container */
+div.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Recipe Card Styling */
+div.recipe-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+div.recipe-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Recipe Image */
+div.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* Recipe Content */
+div.recipe-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px;
+}
+
+div.recipe-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0 10px 10px 10px;
+}
+
+div.recipe-card a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6347;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+div.recipe-card a:hover {
+  background-color: #e55347;
+}
+
+/* Loader and Error Message */
+p {
+  font-size: 1.2rem;
+  color: #666;
+}
